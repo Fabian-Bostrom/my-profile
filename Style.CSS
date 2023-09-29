@@ -1,0 +1,147 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+selector {         /* Select elements of your page */
+  property: value; /* Design a first property */
+	property: value; /* Then a second */
+	property: value; /* Etc... */
+}
+
+#logo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+h1{
+	color: darkred;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+h2 {
+  color: darkred;
+	font-size: 16px;
+	font-family: Lato;
+	font-weight: bold;
+}
+
+
+p {                
+  color: black;
+}
+.text-green {   
+  color: #CD7F32;
+}
+.text-blue {             
+  color: #000080;
+}
+.text-yellow {             
+  color: #228B22;
+}
+
+body {
+	color: black;
+	font-family: Georgia, monospace;
+  	font-size: 8px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	font-weight: normal;
+	margin:1px auto;
+}
+
+ul {
+    list-style: none; /* Remove default list bullets */
+    padding-left: 0; /* Remove default left padding for the list */
+}
+
+ul li {
+    margin-bottom: 10px; /* Adjust the margin between list items */
+}
+
+.link-box {
+  background-color:darkred; /* Choose a background color for the box */
+  padding: 8px 0px; /* Adjust padding as needed */
+  border-radius: 5px; /* Add rounded corners to the box */
+  display: inline-block; /* Make the box an inline-block element to fit the content */
+  text-align: center; /* Center-align the text within the box */
+  width: 100px;
+
+
+}
+
+.link-box a {
+  color: white;
+  text-decoration: italic;
+  transition: color 0.1s ease;
+}
+
+/* Change color on hover only for links within .link-box */
+.link-box a:hover {
+  color: black;
+  text-decoration: italic;
+}
+
+
+
+div {
+	text-align: center;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	background: white;
+	padding: 30px;
+	border-radius: 4px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	width: 300px;
+	margin: 10px auto;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+ul li a i {
+    font-size: 24px; /* Adjust the size as needed */
+    padding: 10px; /* Add padding for spacing around the icons */
+}
+
+.title {
+        font-size: 10px; 
+        font-weight: bold; 
+    }
+	
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+  color: white;
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+}
+
+/* Media query for screens with a maximum width of 720px */
+@media (max-width: 720px) {
+  /* Adjust styles for screens < 720px */
+  div {
+    font-size: 12px;
+    width: 500px
+  }
+  /* Add more styles as needed */
+}
+
+/* Media query for screens with a maximum width of 540px */
+@media (max-width: 540px) {
+  /* Adjust styles for screens < 540px */
+  div {
+    font-size: 10px;
+    width: 300px
+
+  }
+  /* Add more styles as needed */
+}
